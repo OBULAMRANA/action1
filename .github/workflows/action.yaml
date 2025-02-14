@@ -4,7 +4,7 @@ on: push
 
 jobs:
   init:
-    runs-on: self-hosted
+    runs-on: L1
     steps:
       - run: echo 'hellow cloud gurus'
       - run: echo $HOSTNAME
