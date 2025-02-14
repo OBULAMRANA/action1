@@ -1,0 +1,10 @@
+name: Must run on Customer runner
+
+on: push
+
+jobs:
+  init:
+    runs-on: self-hosted
+    steps:
+      - run: echo 'hellow cloud gurus'
+      - run: echo $HOSTNAME
